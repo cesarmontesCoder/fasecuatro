@@ -1,0 +1,7 @@
+Options All -Indexes
+
+php_flag register_globals on
+
+RewriteEngine On
+
+RewriteRule ^([-a-zA-Z0-9]+)$ index.php?ruta=$1
