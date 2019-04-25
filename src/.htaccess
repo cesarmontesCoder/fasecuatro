@@ -1,7 +1,6 @@
-Options All -Indexes
-
-php_flag register_globals on
-
-RewriteEngine On
-
-RewriteRule ^([-a-zA-Z0-9]+)$ index.php?ruta=$1
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ /index.php?PATH=$1 [NC,L,QSA]
+</IfModule>
