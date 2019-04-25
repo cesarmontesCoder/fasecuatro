@@ -1,0 +1,25 @@
+{
+  "name": "cesarmvc",
+  "version": "1.0.0",
+  "description": "UNAD Actividad Fase 4",
+  "main": "index.php",
+  "scripts": {
+    "test": "UNAD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarmontesCoder/fasecuatro.git"
+  },
+  "keywords": [
+    "Fase",
+    "Cuatro",
+    "UNAD",
+    "Cesar"
+  ],
+  "author": "Cesar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarmontesCoder/fasecuatro/issues"
+  },
+  "homepage": "https://github.com/cesarmontesCoder/fasecuatro#readme"
+}
