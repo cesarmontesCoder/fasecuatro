@@ -6,9 +6,9 @@ class views
 {
     static function add($view)
     {
-        try{
+        try {
             self::view($view);
-        } catch(\Exception $e){
+        } catch(\Exception $e) {
             print $e->getMessage();
         }
     }
