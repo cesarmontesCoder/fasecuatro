@@ -9,7 +9,7 @@ class views
         try{
             self::view($view);
         } catch(\Exception $e){
-            return $e->getMessage();
+            print $e->getMessage();
         }
     }
     
@@ -17,7 +17,7 @@ class views
     {
         $path_to_file = PATH . '/vistas/' . $file . '.php';
         
-        if(!file_exist($path_to_file))
+        if(!file_exists($path_to_file))
             throw new \Exception('Recurso not found 404');
         
         include $path_to_file;

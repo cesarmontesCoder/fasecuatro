@@ -24,5 +24,5 @@ include 'autoload.php';
  *
  */
 
-include 'core.php';
+include 'core/core.php';
 
