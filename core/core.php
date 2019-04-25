@@ -8,7 +8,7 @@ class core
 {
     static function entryPoint()
     {
-        return views::add('app/login/index');
+        return views::add('app.login.index');
     }
 }
 

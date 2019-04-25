@@ -15,7 +15,7 @@ class views
     
     static function view($file)
     {
-        $path_to_file = PATH . '/vistas/' . $file . '.php';
+        $path_to_file = PATH . '/vistas/' . str_replace('.', '/', $file) . '.php';
         
         if(!file_exists($path_to_file))
             throw new \Exception('Recurso not found 404');
